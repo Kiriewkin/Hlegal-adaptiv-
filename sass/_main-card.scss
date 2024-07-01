@@ -1,0 +1,274 @@
+.cards {
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+}
+
+.card-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.highlight-text {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36.57px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.services-link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: rgba(36, 163, 255, 1);
+    text-decoration: none;
+    transition: all 0.3s;
+    margin-right: 2px;
+}
+
+.services-link:hover {
+    color: rgba(240, 20, 90, 1);
+}
+
+.card {
+        &-name {
+            font-size: 22px;
+            font-weight: 700;
+            line-height: 27px;
+            color: rgba(36, 163, 255, 1);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+            &-text {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color: rgba(255, 255, 255, 1);
+        }
+}
+
+.icon-card {
+    width: 92px;
+    height: 92px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &-ecommerce {
+        background-image: url(../images/Ecommerce.svg);
+    }
+
+    &-support {
+        background-image: url(../images/Support.svg);
+    }
+
+    &-corporate {
+        background-image: url(../images/Coprorate.svg)
+    }
+
+    &-trust {
+        background-image: url(../images/Trust.svg);
+    }
+
+    &-protection {
+        background-image: url(../images/Protection.svg);
+    }
+
+    &-court {
+        background-image: url(../images/Court.svg);
+    }
+}
+
+.wrapper-sponsor {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsor-tittle {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: 1px;
+    color: rgba(50, 50, 100, 1);
+}
+
+.sponsor-image {
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &-hillel {
+        background-image: url(../images/hillel.png);
+        background-color: rgba(28, 66, 128, 1);
+        background-size: 217px 48px;
+    }
+
+    &-wannabiz {
+        background-image: url(../images/wannabiz.png);
+        background-color: rgba(20, 54, 70, 1);
+        background-size: 199px 32px;
+    }
+
+    &-tapgerine {
+        background-image: url(../images/tapgerine.png);
+        background-color: rgba(244, 139, 48, 1);
+        background-size: 179px 44px;
+    }
+
+    &-3dlook {
+        background-image: url(../images/3dlook.png);
+        background-color: rgba(158, 77, 195, 1);
+        background-size: 180px 42px;
+    }
+
+    &-orangear {
+        background-image: url(../images/oranger.png);
+        background-color: rgba(253, 147, 57, 1);
+        background-size: 174px 44px;
+    }
+
+    &-adtelligent {
+        background-image: url(../images/adtelligent.png);
+        background-color: rgba(226, 226, 228, 1);
+        background-size: 195px 48px;
+    }
+
+    &-clickky {
+        background-image: url(../images/clickky.png);
+        background-color: rgba(199, 28, 54, 1);
+        background-size: 138px 61px;
+    }
+
+    &-eco-leasing {
+        background-image: url(../images/eco-leasing.png);
+        background-color: rgba(220, 243, 249, 1);
+        background-size: 146px 76px;
+    }
+
+    &-infatek{
+        background-image: url(../images/infatek.png);
+        background-color: rgba(234, 234, 234, 1);
+        background-size: 182px 60px;
+    }
+
+    &-city-park {
+        background-image: url(../images/city-park.png);
+        background-color: rgba(40, 34, 64, 1);
+        background-size: 181px 38px;
+    }
+
+    &-art-print {
+        background-image: url(../images/art-print.png);
+        background-color: rgba(29, 69, 104, 1);
+        background-size: 189px 46px;
+    }
+
+    &-ultimate-card {
+        background-image: url(../images/ultimate-card.png);
+        background-color: rgba(0, 0, 0, 1);
+        background-size: 152px 95px;
+    }
+}
+
+.mobile-hidden {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .wrapper {
+        width: 648px;
+    }
+
+    .card-inner {
+        flex-direction: row;
+        gap: 60px;
+    }
+
+    .card {
+        width: 294px;
+    }
+
+    .wrapper-sponsor {
+        width: 768px;
+    }
+
+    .sponsors-link {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .sponsor-image {
+        width: 256px;
+    }
+
+    .mobile-hidden {
+        display: block;
+    }
+}
+
+@media (min-width:1024px) {
+    .wrapper {
+        width: 904px;
+    }
+
+    .card {
+        width: 261px;
+    }
+
+    .wrapper-sponsor {
+        width: 1024px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 1320px;
+    }
+
+    .card {
+        width: 400px;
+    }
+
+    .wrapper-sponsor {
+        width: 1440px;
+    }
+
+    .sponsor-image {
+        width: 360px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .wrapper {
+        width: 1600px;
+    }
+
+    .card {
+        width: 493px;
+    }
+
+    .sponsor-image {
+        width: 430px;
+    }
+
+    .wrapper-sponsor {
+        width: 1720px;
+    }
+}

@@ -1,0 +1,444 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ThinItalic.woff2") format("woff2"), url("Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Thin.woff2") format("woff2"), url("Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-BoldItalic.woff2") format("woff2"), url("Montserrat-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Black.woff2") format("woff2"), url("Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("Montserrat-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Medium.woff2") format("woff2"), url("Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Bold.woff2") format("woff2"), url("Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ExtraBold.woff2") format("woff2"), url("Montserrat-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-LightItalic.woff2") format("woff2"), url("Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Italic.woff2") format("woff2"), url("Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ExtraLight.woff2") format("woff2"), url("Montserrat-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ExtraLightItalic.woff2") format("woff2"), url("Montserrat-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Light.woff2") format("woff2"), url("Montserrat-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-BlackItalic.woff2") format("woff2"), url("Montserrat-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Thin.woff2") format("woff2"), url("Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-SemiBoldItalic.woff2") format("woff2"), url("Montserrat-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-SemiBold.woff2") format("woff2"), url("Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-ThinItalic.woff2") format("woff2"), url("Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-MediumItalic.woff2") format("woff2"), url("Montserrat-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("Montserrat-Regular.woff2") format("woff2"), url("Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.wrapper {
+  width: 315px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 30px;
+}
+
+.card-inner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.highlight-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.services-link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 1px;
+  color: rgb(36, 163, 255);
+  text-decoration: none;
+  transition: all 0.3s;
+  margin-right: 2px;
+}
+
+.services-link:hover {
+  color: rgb(240, 20, 90);
+}
+
+.card-name {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: rgb(36, 163, 255);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.card-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+}
+
+.icon-card {
+  width: 92px;
+  height: 92px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-card-ecommerce {
+  background-image: url(../images/Ecommerce.svg);
+}
+.icon-card-support {
+  background-image: url(../images/Support.svg);
+}
+.icon-card-corporate {
+  background-image: url(../images/Coprorate.svg);
+}
+.icon-card-trust {
+  background-image: url(../images/Trust.svg);
+}
+.icon-card-protection {
+  background-image: url(../images/Protection.svg);
+}
+.icon-card-court {
+  background-image: url(../images/Court.svg);
+}
+
+.wrapper-sponsor {
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsor-tittle {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  letter-spacing: 1px;
+  color: rgb(50, 50, 100);
+}
+
+.sponsor-image {
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sponsor-image-hillel {
+  background-image: url(../images/hillel.png);
+  background-color: rgb(28, 66, 128);
+  background-size: 217px 48px;
+}
+.sponsor-image-wannabiz {
+  background-image: url(../images/wannabiz.png);
+  background-color: rgb(20, 54, 70);
+  background-size: 199px 32px;
+}
+.sponsor-image-tapgerine {
+  background-image: url(../images/tapgerine.png);
+  background-color: rgb(244, 139, 48);
+  background-size: 179px 44px;
+}
+.sponsor-image-3dlook {
+  background-image: url(../images/3dlook.png);
+  background-color: rgb(158, 77, 195);
+  background-size: 180px 42px;
+}
+.sponsor-image-orangear {
+  background-image: url(../images/oranger.png);
+  background-color: rgb(253, 147, 57);
+  background-size: 174px 44px;
+}
+.sponsor-image-adtelligent {
+  background-image: url(../images/adtelligent.png);
+  background-color: rgb(226, 226, 228);
+  background-size: 195px 48px;
+}
+.sponsor-image-clickky {
+  background-image: url(../images/clickky.png);
+  background-color: rgb(199, 28, 54);
+  background-size: 138px 61px;
+}
+.sponsor-image-eco-leasing {
+  background-image: url(../images/eco-leasing.png);
+  background-color: rgb(220, 243, 249);
+  background-size: 146px 76px;
+}
+.sponsor-image-infatek {
+  background-image: url(../images/infatek.png);
+  background-color: rgb(234, 234, 234);
+  background-size: 182px 60px;
+}
+.sponsor-image-city-park {
+  background-image: url(../images/city-park.png);
+  background-color: rgb(40, 34, 64);
+  background-size: 181px 38px;
+}
+.sponsor-image-art-print {
+  background-image: url(../images/art-print.png);
+  background-color: rgb(29, 69, 104);
+  background-size: 189px 46px;
+}
+.sponsor-image-ultimate-card {
+  background-image: url(../images/ultimate-card.png);
+  background-color: rgb(0, 0, 0);
+  background-size: 152px 95px;
+}
+
+.mobile-hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 648px;
+  }
+  .card-inner {
+    flex-direction: row;
+    gap: 60px;
+  }
+  .card {
+    width: 294px;
+  }
+  .wrapper-sponsor {
+    width: 768px;
+  }
+  .sponsors-link {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sponsor-image {
+    width: 256px;
+  }
+  .mobile-hidden {
+    display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 904px;
+  }
+  .card {
+    width: 261px;
+  }
+  .wrapper-sponsor {
+    width: 1024px;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    width: 1320px;
+  }
+  .card {
+    width: 400px;
+  }
+  .wrapper-sponsor {
+    width: 1440px;
+  }
+  .sponsor-image {
+    width: 360px;
+  }
+}
+@media (min-width: 1920px) {
+  .wrapper {
+    width: 1600px;
+  }
+  .card {
+    width: 493px;
+  }
+  .sponsor-image {
+    width: 430px;
+  }
+  .wrapper-sponsor {
+    width: 1720px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
