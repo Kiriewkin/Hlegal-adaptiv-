@@ -50,142 +50,142 @@ table {
 
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-ThinItalic.woff2") format("woff2"), url("Montserrat-ThinItalic.woff") format("woff");
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Thin.woff2") format("woff2"), url("Montserrat-Thin.woff") format("woff");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-BoldItalic.woff2") format("woff2"), url("Montserrat-BoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Black.woff2") format("woff2"), url("Montserrat-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("Montserrat-ExtraBoldItalic.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Medium.woff2") format("woff2"), url("Montserrat-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Bold.woff2") format("woff2"), url("Montserrat-Bold.woff") format("woff");
+  src: url("../font/Montserrat-ExtraBold.woff2") format("woff2"), url("../font/Montserrat-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-ExtraBold.woff2") format("woff2"), url("Montserrat-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-LightItalic.woff2") format("woff2"), url("Montserrat-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Italic.woff2") format("woff2"), url("Montserrat-Italic.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-ExtraLight.woff2") format("woff2"), url("Montserrat-ExtraLight.woff") format("woff");
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-ExtraLightItalic.woff2") format("woff2"), url("Montserrat-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-Light.woff2") format("woff2"), url("Montserrat-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-BlackItalic.woff2") format("woff2"), url("Montserrat-BlackItalic.woff") format("woff");
+  src: url("../font/Montserrat-BlackItalic.woff2") format("woff2"), url("../font/Montserrat-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-Thin.woff2") format("woff2"), url("Montserrat-Thin.woff") format("woff");
+  src: url("../font/Montserrat-Black.woff2") format("woff2"), url("../font/Montserrat-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-ExtraLightItalic.woff2") format("woff2"), url("../font/Montserrat-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-ExtraBoldItalic.woff2") format("woff2"), url("../font/Montserrat-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-ThinItalic.woff2") format("woff2"), url("../font/Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-BoldItalic.woff2") format("woff2"), url("../font/Montserrat-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Bold.woff2") format("woff2"), url("../font/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-ExtraLight.woff2") format("woff2"), url("../font/Montserrat-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Thin.woff2") format("woff2"), url("../font/Montserrat-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-SemiBoldItalic.woff2") format("woff2"), url("Montserrat-SemiBoldItalic.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("Montserrat-SemiBold.woff2") format("woff2"), url("Montserrat-SemiBold.woff") format("woff");
-  font-weight: 600;
+  src: url("../font/Montserrat-Regular.woff2") format("woff2"), url("../font/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-ThinItalic.woff2") format("woff2"), url("Montserrat-ThinItalic.woff") format("woff");
-  font-weight: 100;
+  src: url("../font/Montserrat-Italic.woff2") format("woff2"), url("../font/Montserrat-Italic.woff") format("woff");
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-MediumItalic.woff2") format("woff2"), url("Montserrat-MediumItalic.woff") format("woff");
+  src: url("../font/Montserrat-MediumItalic.woff2") format("woff2"), url("../font/Montserrat-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("Montserrat-Regular.woff2") format("woff2"), url("Montserrat-Regular.woff") format("woff");
-  font-weight: normal;
+  src: url("../font/Montserrat-Light.woff2") format("woff2"), url("../font/Montserrat-Light.woff") format("woff");
+  font-weight: 300;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-SemiBoldItalic.woff2") format("woff2"), url("../font/Montserrat-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Medium.woff2") format("woff2"), url("../font/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Thin.woff2") format("woff2"), url("../font/Montserrat-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-ThinItalic.woff2") format("woff2"), url("../font/Montserrat-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-SemiBold.woff2") format("woff2"), url("../font/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-LightItalic.woff2") format("woff2"), url("../font/Montserrat-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
   font-display: swap;
 }
 * {
@@ -208,6 +208,27 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding-bottom: 30px;
+  position: relative;
+}
+.cards::before, .cards::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 10px;
+  border-radius: 0px 0px 12px 12px;
+}
+.cards::before {
+  background: rgb(202, 202, 219);
+  left: 20px;
+  right: 20px;
+  top: 100%;
+}
+.cards::after {
+  background: rgb(231, 231, 242);
+  left: 40px;
+  right: 40px;
+  top: calc(100% + 10px);
 }
 
 .card-inner {
@@ -289,7 +310,7 @@ body {
 }
 
 .wrapper-sponsor {
-  width: 375px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -307,9 +328,11 @@ body {
 }
 
 .sponsor-image {
+  display: block;
   height: 120px;
   background-repeat: no-repeat;
   background-position: center;
+  text-decoration: none;
 }
 .sponsor-image-hillel {
   background-image: url(../images/hillel.png);
@@ -387,15 +410,12 @@ body {
   .card {
     width: 294px;
   }
-  .wrapper-sponsor {
-    width: 768px;
-  }
   .sponsors-link {
     display: flex;
     flex-wrap: wrap;
   }
   .sponsor-image {
-    width: 256px;
+    width: 33.33%;
   }
   .mobile-hidden {
     display: block;
@@ -408,8 +428,8 @@ body {
   .card {
     width: 261px;
   }
-  .wrapper-sponsor {
-    width: 1024px;
+  .sponsor-image {
+    width: 25%;
   }
 }
 @media (min-width: 1440px) {
@@ -418,12 +438,6 @@ body {
   }
   .card {
     width: 400px;
-  }
-  .wrapper-sponsor {
-    width: 1440px;
-  }
-  .sponsor-image {
-    width: 360px;
   }
 }
 @media (min-width: 1920px) {
@@ -435,6 +449,18 @@ body {
   }
   .sponsor-image {
     width: 430px;
+  }
+  .sponsor-image-hillel {
+    border-top-left-radius: 12px;
+  }
+  .sponsor-image-3dlook {
+    border-top-right-radius: 12px;
+  }
+  .sponsor-image-infatek {
+    border-bottom-left-radius: 12px;
+  }
+  .sponsor-image-ultimate-card {
+    border-bottom-right-radius: 12px;
   }
   .wrapper-sponsor {
     width: 1720px;

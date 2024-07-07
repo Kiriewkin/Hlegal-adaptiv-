@@ -3,7 +3,32 @@
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 30px;
+    position: relative;
+
+    &::before, &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 10px;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    &::before {
+        background: rgba(202, 202, 219, 1);
+        left: 20px;
+        right: 20px;
+        top: 100%;
+    }
+
+    &::after {
+        background: rgba(231, 231, 242, 1);
+        left: 40px;
+        right: 40px;
+        top: calc(100% + 10px);
+    }
 }
+
 
 .card-inner {
     display: flex;
@@ -92,7 +117,7 @@
 }
 
 .wrapper-sponsor {
-    width: 375px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,10 +135,12 @@
 }
 
 .sponsor-image {
+    display: block;
     height: 120px;
     background-repeat: no-repeat;
     background-position: center;
-
+    text-decoration: none;
+    
     &-hillel {
         background-image: url(../images/hillel.png);
         background-color: rgba(28, 66, 128, 1);
@@ -205,17 +232,13 @@
         width: 294px;
     }
 
-    .wrapper-sponsor {
-        width: 768px;
-    }
-
     .sponsors-link {
         display: flex;
         flex-wrap: wrap;
     }
 
     .sponsor-image {
-        width: 256px;
+        width: 33.33%;
     }
 
     .mobile-hidden {
@@ -232,8 +255,8 @@
         width: 261px;
     }
 
-    .wrapper-sponsor {
-        width: 1024px;
+    .sponsor-image {
+        width: 25%;
     }
 }
 
@@ -244,14 +267,6 @@
 
     .card {
         width: 400px;
-    }
-
-    .wrapper-sponsor {
-        width: 1440px;
-    }
-
-    .sponsor-image {
-        width: 360px;
     }
 }
 
@@ -266,6 +281,22 @@
 
     .sponsor-image {
         width: 430px;
+
+        &-hillel {
+            border-top-left-radius: 12px;
+        }
+
+        &-3dlook {
+            border-top-right-radius: 12px;
+        }
+
+        &-infatek {
+            border-bottom-left-radius: 12px;
+        }
+
+        &-ultimate-card {
+            border-bottom-right-radius: 12px;
+        }
     }
 
     .wrapper-sponsor {
